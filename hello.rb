@@ -1,3 +1,5 @@
 puts "Who are you?"
 name = gets.chomp
-puts "Hello, #{name}!"
+puts "How are you?"
+feeling = gets.chomp
+puts "Hello #{name}, I'm glad you are #{feeling}!"
